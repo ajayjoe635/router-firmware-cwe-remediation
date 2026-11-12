@@ -52,14 +52,6 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient" 
 ```
 * **Post-Remediation Verification:** Re-ran `sudo responder -I eth0 -A` on the isolated segment and confirmed zero LLMNR broadcast leaks occurred.
 
-![Hardcoded RSA Key CWE-321](01_Hardcoded_RSA_Key_CWE321.png)
-![Default Credentials CWE-798](02_Default_Credentials_CWE798.png)
-![Passwordless Guest CWE-258](Exposed%20Credentials.jpg)
-![Insecure PPTP and NetBIOS Defaults CWE-1188](04_Insecure_PPTP_NetBIOS_CWE1188.png)
-![Responder LLMNR Broadcast Before Fix](05_Responder_LLMNR_Before_Fix.png)
-![Responder LLMNR Verification After Fix](Screenshot%202026-11-11%20203520.png)
-
-
 
 * **
 
