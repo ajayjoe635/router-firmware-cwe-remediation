@@ -52,3 +52,8 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient" 
 ```
 * **Post-Remediation Verification:** Re-ran `sudo responder -I eth0 -A` on the isolated segment and confirmed zero LLMNR broadcast leaks occurred.
 
+
+
+* **
+
+# SEE Screenshots for more visual details on the findings of the vulnerabilities found on TP Link Firmware
